@@ -229,362 +229,258 @@
   <!-- ══════════════════════════════════════════════════════════════════
        STRUCTURED DATA (JSON-LD) — FIXED: no date fields, no @id in mainEntity
        ══════════════════════════════════════════════════════════════════ -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://mbkglobal.vercel.app/#website",
-        "url": "https://mbkglobal.vercel.app/",
-        "name": "mbkGlobal",
-        "alternateName": ["MBK Global", "MBK", "Muhammad Bakhtawar Khan", "mbkGlobal Portfolio", "MBK Portfolio"],
-        "description": "Official digital portfolio of Muhammad Bakhtawar Khan, focused on digital technology, web development, AI, cybersecurity and innovation.",
-        "inLanguage": "en-PK",
-        "publisher": { "@id": "https://mbkglobal.vercel.app/#person" },
-        "copyrightHolder": { "@id": "https://mbkglobal.vercel.app/#person" },
-        "copyrightYear": "2025",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "https://mbkglobal.vercel.app/?s={search_term_string}"
-          },
-          "query-input": "required name=search_term_string"
-        }
+            
+          <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://mbkglobal.vercel.app/#website",
+      "url": "https://mbkglobal.vercel.app/",
+      "name": "mbkGlobal",
+      "alternateName": ["MBK Global", "MBK", "Muhammad Bakhtawar Khan", "mbkGlobal Portfolio", "MBK Portfolio"],
+      "description": "Official digital portfolio of Muhammad Bakhtawar Khan, focused on digital technology, web development, AI, cybersecurity and innovation.",
+      "inLanguage": "en-PK",
+      "publisher": { "@id": "https://mbkglobal.vercel.app/#person" },
+      "copyrightHolder": { "@id": "https://mbkglobal.vercel.app/#person" },
+      "copyrightYear": "2025"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://mbkglobal.vercel.app/#person",
+      "name": "Muhammad Bakhtawar Khan",
+      "givenName": "Muhammad Bakhtawar",
+      "familyName": "Khan",
+      "additionalName": "MBK",
+      "alternateName": ["MBK", "MBK Global", "mbkGlobal", "Bakhtawar Khan", "Muhammad Bakhtawar", "Bakhtawar bhai", "Bakhtawar bahi", "Mr Bakhtawar", "Sir Bakhtawar"],
+      "url": "https://mbkglobal.vercel.app/",
+      "description": "Muhammad Bakhtawar Khan is an aspiring digital professional and the founder of mbkGlobal, passionate about web development, artificial intelligence, cybersecurity, SEO and digital innovation.",
+      "jobTitle": "Aspiring Digital Professional & Founder of mbkGlobal",
+      "worksFor": { "@id": "https://mbkglobal.vercel.app/#organization" },
+      "founder": { "@id": "https://mbkglobal.vercel.app/#organization" },
+      "nationality": { "@type": "Country", "name": "Pakistan" },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PK",
+        "addressRegion": "Pakistan"
       },
-      {
-        "@type": "ProfilePage",
-        "@id": "https://mbkglobal.vercel.app/#profilepage",
-        "url": "https://mbkglobal.vercel.app/",
-        "name": "Muhammad Bakhtawar Khan — mbkGlobal",
-        "isPartOf": { "@id": "https://mbkglobal.vercel.app/#website" },
-        "about": { "@id": "https://mbkglobal.vercel.app/#person" },
-        "inLanguage": "en-PK",
-        "breadcrumb": { "@id": "https://mbkglobal.vercel.app/#breadcrumb" },
-        "mainEntity": {
-          "@type": "Person",
-          "name": "Muhammad Bakhtawar Khan",
-          "givenName": "Muhammad Bakhtawar",
-          "familyName": "Khan",
-          "additionalName": "MBK",
-          "alternateName": ["MBK", "MBK Global", "mbkGlobal", "Bakhtawar Khan", "Muhammad Bakhtawar", "Bakhtawar bhai", "Bakhtawar bahi", "Mr Bakhtawar", "Sir Bakhtawar"],
-          "url": "https://mbkglobal.vercel.app/",
-          "mainEntityOfPage": { "@id": "https://mbkglobal.vercel.app/#profilepage" },
-          "description": "Muhammad Bakhtawar Khan is an aspiring digital professional and the founder of mbkGlobal, passionate about web development, artificial intelligence, cybersecurity, SEO and digital innovation.",
-          "jobTitle": "Aspiring Digital Professional & Founder of mbkGlobal",
-          "worksFor": { "@id": "https://mbkglobal.vercel.app/#organization" },
-          "founder": { "@id": "https://mbkglobal.vercel.app/#organization" },
-          "nationality": { "@type": "Country", "name": "Pakistan" },
-          "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "PK",
-            "addressRegion": "Pakistan"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://mbkglobal.vercel.app/og-image.jpg",
-            "width": 1200,
-            "height": 630
-          },
-          "knowsLanguage": [
-            { "@type": "Language", "name": "English", "alternateName": "en" },
-            { "@type": "Language", "name": "Urdu", "alternateName": "ur" }
-          ],
-          "knowsAbout": [
-            "Web Development", "Website Development", "Front-End Development", "Back-End Development",
-            "Full-Stack Development", "Responsive Web Design", "Progressive Web Apps", "React",
-            "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Artificial Intelligence",
-            "Machine Learning", "Deep Learning", "Natural Language Processing", "Generative AI",
-            "Large Language Models", "Prompt Engineering", "Cybersecurity", "Ethical Hacking",
-            "Penetration Testing", "Network Security", "Application Security", "Cloud Security",
-            "Cryptography", "OWASP Top 10", "Search Engine Optimization", "Technical SEO",
-            "On-Page SEO", "Off-Page SEO", "Local SEO", "Keyword Research", "Schema Markup",
-            "Structured Data", "Cloud Computing", "AWS", "Microsoft Azure", "Google Cloud Platform",
-            "Docker", "Kubernetes", "CI/CD", "DevOps", "Computer Networking", "Network Engineering",
-            "TCP/IP", "DNS", "VPN", "Subnetting", "Routing", "Switching", "Virtual Private Servers",
-            "VPS Management", "Linux Administration", "Ubuntu", "Debian", "CentOS",
-            "Remote Desktop Protocol", "RDP Management", "Windows Server", "Virtualization",
-            "Digital Branding", "Digital Innovation", "Digital Marketing", "Content Marketing",
-            "Social Media Marketing", "Personal Branding", "UI Design", "UX Design",
-            "Website Performance Optimization", "Core Web Vitals", "Web Accessibility",
-            "Git", "GitHub", "Version Control", "Vercel", "Cloudflare"
-          ],
-          "hasOccupation": {
-            "@type": "Occupation",
-            "name": "Digital Technology Professional",
-            "occupationLocation": { "@type": "Country", "name": "Pakistan" },
-            "skills": "Web Development, Artificial Intelligence, Cybersecurity, SEO, Cloud Computing, Networking"
-          },
-          "sameAs": [
-            "https://mbkglobal.vercel.app/",
-            "https://instagram.com/mbk_bakhtawar",
-            "https://www.linkedin.com/in/muhammad-bakhtawar-khan-43b02931b",
-            "https://github.com/Muhammad-Bakhtawar-Khan",
-            "https://www.facebook.com/share/1EAjQVA3Qv/",
-            "https://x.com/MBK_Bakhtawar",
-            "https://www.twitch.tv/mbk_bakhtawar",
-            "https://www.pinterest.com/mbk_bakhtawar/"
-          ]
-        }
-      },
-      {
-        "@type": "Person",
-        "@id": "https://mbkglobal.vercel.app/#person",
-        "name": "Muhammad Bakhtawar Khan",
-        "givenName": "Muhammad Bakhtawar",
-        "familyName": "Khan",
-        "additionalName": "MBK",
-        "alternateName": ["MBK", "MBK Global", "mbkGlobal", "Bakhtawar Khan", "Muhammad Bakhtawar", "Bakhtawar bhai", "Bakhtawar bahi", "Mr Bakhtawar", "Sir Bakhtawar"],
-        "url": "https://mbkglobal.vercel.app/",
-        "mainEntityOfPage": { "@id": "https://mbkglobal.vercel.app/#profilepage" },
-        "description": "Muhammad Bakhtawar Khan is an aspiring digital professional and the founder of mbkGlobal, passionate about web development, artificial intelligence, cybersecurity, SEO and digital innovation.",
-        "jobTitle": "Aspiring Digital Professional & Founder of mbkGlobal",
-        "worksFor": { "@id": "https://mbkglobal.vercel.app/#organization" },
-        "founder": { "@id": "https://mbkglobal.vercel.app/#organization" },
-        "nationality": { "@type": "Country", "name": "Pakistan" },
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "PK",
-          "addressRegion": "Pakistan"
-        },
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://mbkglobal.vercel.app/og-image.jpg",
-          "width": 1200,
-          "height": 630
-        },
-        "knowsLanguage": [
-          { "@type": "Language", "name": "English", "alternateName": "en" },
-          { "@type": "Language", "name": "Urdu", "alternateName": "ur" }
-        ],
-        "knowsAbout": [
-          "Web Development", "Website Development", "Front-End Development", "Back-End Development",
-          "Full-Stack Development", "Responsive Web Design", "Progressive Web Apps", "React",
-          "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Artificial Intelligence",
-          "Machine Learning", "Deep Learning", "Natural Language Processing", "Generative AI",
-          "Large Language Models", "Prompt Engineering", "Cybersecurity", "Ethical Hacking",
-          "Penetration Testing", "Network Security", "Application Security", "Cloud Security",
-          "Cryptography", "OWASP Top 10", "Search Engine Optimization", "Technical SEO",
-          "On-Page SEO", "Off-Page SEO", "Local SEO", "Keyword Research", "Schema Markup",
-          "Structured Data", "Cloud Computing", "AWS", "Microsoft Azure", "Google Cloud Platform",
-          "Docker", "Kubernetes", "CI/CD", "DevOps", "Computer Networking", "Network Engineering",
-          "TCP/IP", "DNS", "VPN", "Subnetting", "Routing", "Switching", "Virtual Private Servers",
-          "VPS Management", "Linux Administration", "Ubuntu", "Debian", "CentOS",
-          "Remote Desktop Protocol", "RDP Management", "Windows Server", "Virtualization",
-          "Digital Branding", "Digital Innovation", "Digital Marketing", "Content Marketing",
-          "Social Media Marketing", "Personal Branding", "UI Design", "UX Design",
-          "Website Performance Optimization", "Core Web Vitals", "Web Accessibility",
-          "Git", "GitHub", "Version Control", "Vercel", "Cloudflare"
-        ],
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "Digital Technology Professional",
-          "occupationLocation": { "@type": "Country", "name": "Pakistan" },
-          "skills": "Web Development, Artificial Intelligence, Cybersecurity, SEO, Cloud Computing, Networking"
-        },
-        "sameAs": [
-          "https://mbkglobal.vercel.app/",
-          "https://instagram.com/mbk_bakhtawar",
-          "https://www.linkedin.com/in/muhammad-bakhtawar-khan-43b02931b",
-          "https://github.com/Muhammad-Bakhtawar-Khan",
-          "https://www.facebook.com/share/1EAjQVA3Qv/",
-          "https://x.com/MBK_Bakhtawar",
-          "https://www.twitch.tv/mbk_bakhtawar",
-          "https://www.pinterest.com/mbk_bakhtawar/"
-        ]
-      },
-      {
-        "@type": "Organization",
-        "@id": "https://mbkglobal.vercel.app/#organization",
-        "name": "mbkGlobal",
-        "alternateName": ["MBK Global", "MBK.GLOBAL", "mbk global"],
-        "url": "https://mbkglobal.vercel.app/",
-        "description": "The personal digital portfolio and brand of Muhammad Bakhtawar Khan, highlighting technology interests, continuous learning and digital innovation.",
-        "founder": { "@id": "https://mbkglobal.vercel.app/#person" },
-        "foundingDate": "2025",
-        "areaServed": { "@type": "Country", "name": "Pakistan" },
-        "knowsAbout": [
-          "Web Development", "Artificial Intelligence", "Cybersecurity", "Search Engine Optimization",
-          "Cloud Computing", "Computer Networking", "Digital Branding", "Digital Innovation"
-        ],
-        "slogan": "Building Skills. Creating Impact. Shaping the Digital Future.",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "contactType": "General Inquiries",
-          "availableLanguage": ["English", "Urdu"],
-          "areaServed": "Worldwide"
-        },
-        "sameAs": [
-          "https://instagram.com/mbk_bakhtawar",
-          "https://www.linkedin.com/in/muhammad-bakhtawar-khan-43b02931b",
-          "https://github.com/Muhammad-Bakhtawar-Khan",
-          "https://www.facebook.com/share/1EAjQVA3Qv/",
-          "https://x.com/MBK_Bakhtawar",
-          "https://www.twitch.tv/mbk_bakhtawar",
-          "https://www.pinterest.com/mbk_bakhtawar/"
-        ]
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://mbkglobal.vercel.app/#webpage",
-        "url": "https://mbkglobal.vercel.app/",
-        "name": "mbkGlobal | Muhammad Bakhtawar Khan",
-        "isPartOf": { "@id": "https://mbkglobal.vercel.app/#website" },
-        "about": { "@id": "https://mbkglobal.vercel.app/#person" },
-        "primaryImageOfPage": { "@id": "https://mbkglobal.vercel.app/#primaryimage" },
-        "inLanguage": "en-PK",
-        "description": "Portfolio of Muhammad Bakhtawar Khan (MBK) — web development, AI, cybersecurity, SEO, cloud computing and digital innovation."
-      },
-      {
+      "image": {
         "@type": "ImageObject",
-        "@id": "https://mbkglobal.vercel.app/#primaryimage",
         "url": "https://mbkglobal.vercel.app/og-image.jpg",
-        "contentUrl": "https://mbkglobal.vercel.app/og-image.jpg",
         "width": 1200,
-        "height": 630,
-        "caption": "Muhammad Bakhtawar Khan — mbkGlobal"
+        "height": 630
       },
-      {
-        "@type": "ImageGallery",
-        "@id": "https://mbkglobal.vercel.app/#gallery",
-        "name": "Muhammad Bakhtawar Khan — Visual Portfolio",
-        "description": "Curated visual portfolio of Muhammad Bakhtawar Khan (MBK) featuring personal photos, digital work, and creative imagery.",
-        "associatedMedia": [
-          { "@type": "ImageObject", "url": "https://pin.it/7ld2kaYvo", "name": "MBK portfolio image 1" },
-          { "@type": "ImageObject", "url": "https://pin.it/17dcZ7W9T", "name": "MBK portfolio image 2" },
-          { "@type": "ImageObject", "url": "https://pin.it/51mUN25G8", "name": "MBK portfolio image 3" },
-          { "@type": "ImageObject", "url": "https://pin.it/BH8UzYgog", "name": "MBK portfolio image 4" },
-          { "@type": "ImageObject", "url": "https://pin.it/6Fww6HJyb", "name": "MBK portfolio image 5" },
-          { "@type": "ImageObject", "url": "https://pin.it/5J0Pvv2T1", "name": "MBK portfolio image 6" },
-          { "@type": "ImageObject", "url": "https://pin.it/6d7x3wRUP", "name": "MBK portfolio image 7" },
-          { "@type": "ImageObject", "url": "https://pin.it/52hJRLOO6", "name": "MBK portfolio image 8" },
-          { "@type": "ImageObject", "url": "https://pin.it/45CuyAVqW", "name": "MBK portfolio image 9" },
-          { "@type": "ImageObject", "url": "https://pin.it/292sL0yxk", "name": "MBK portfolio image 10" },
-          { "@type": "ImageObject", "url": "https://pin.it/6nLJr9eNC", "name": "MBK portfolio image 11" },
-          { "@type": "ImageObject", "url": "https://pin.it/3UeSJW8So", "name": "MBK portfolio image 12" },
-          { "@type": "ImageObject", "url": "https://pin.it/2I6nqpEk1", "name": "MBK portfolio image 13" },
-          { "@type": "ImageObject", "url": "https://pin.it/3Svc2yCLy", "name": "MBK portfolio image 14" },
-          { "@type": "ImageObject", "url": "https://pin.it/7sCRtmWL7", "name": "MBK portfolio image 15" },
-          { "@type": "ImageObject", "url": "https://pin.it/7GUE1fVw9", "name": "MBK portfolio image 16" },
-          { "@type": "ImageObject", "url": "https://pin.it/1MX50iVzw", "name": "MBK portfolio image 17" },
-          { "@type": "ImageObject", "url": "https://pin.it/7gfVWxMcW", "name": "MBK portfolio image 18" },
-          { "@type": "ImageObject", "url": "https://pin.it/4cb3LTFE7", "name": "MBK portfolio image 19" },
-          { "@type": "ImageObject", "url": "https://pin.it/6BvFwVm9z", "name": "MBK portfolio image 20" },
-          { "@type": "ImageObject", "url": "https://pin.it/4THPotKTF", "name": "MBK portfolio image 21" },
-          { "@type": "ImageObject", "url": "https://pin.it/5CbiY96GB", "name": "MBK portfolio image 22" }
-        ]
+      "knowsLanguage": [
+        { "@type": "Language", "name": "English", "alternateName": "en" },
+        { "@type": "Language", "name": "Urdu", "alternateName": "ur" }
+      ],
+      "knowsAbout": [
+        "Web Development", "Website Development", "Front-End Development", "Back-End Development",
+        "Full-Stack Development", "Responsive Web Design", "Progressive Web Apps", "React",
+        "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Artificial Intelligence",
+        "Machine Learning", "Deep Learning", "Natural Language Processing", "Generative AI",
+        "Large Language Models", "Prompt Engineering", "Cybersecurity", "Ethical Hacking",
+        "Penetration Testing", "Network Security", "Application Security", "Cloud Security",
+        "Cryptography", "OWASP Top 10", "Search Engine Optimization", "Technical SEO",
+        "On-Page SEO", "Off-Page SEO", "Local SEO", "Keyword Research", "Schema Markup",
+        "Structured Data", "Cloud Computing", "AWS", "Microsoft Azure", "Google Cloud Platform",
+        "Docker", "Kubernetes", "CI/CD", "DevOps", "Computer Networking", "Network Engineering",
+        "TCP/IP", "DNS", "VPN", "Subnetting", "Routing", "Switching", "Virtual Private Servers",
+        "VPS Management", "Linux Administration", "Ubuntu", "Debian", "CentOS",
+        "Remote Desktop Protocol", "RDP Management", "Windows Server", "Virtualization",
+        "Digital Branding", "Digital Innovation", "Digital Marketing", "Content Marketing",
+        "Social Media Marketing", "Personal Branding", "UI Design", "UX Design",
+        "Website Performance Optimization", "Core Web Vitals", "Web Accessibility",
+        "Git", "GitHub", "Version Control", "Vercel", "Cloudflare"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Digital Technology Professional",
+        "occupationLocation": { "@type": "Country", "name": "Pakistan" },
+        "skills": "Web Development, Artificial Intelligence, Cybersecurity, SEO, Cloud Computing, Networking"
       },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://mbkglobal.vercel.app/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://mbkglobal.vercel.app/"
+      "sameAs": [
+        "https://mbkglobal.vercel.app/",
+        "https://instagram.com/mbk_bakhtawar",
+        "https://www.linkedin.com/in/muhammad-bakhtawar-khan-43b02931b",
+        "https://github.com/Muhammad-Bakhtawar-Khan",
+        "https://www.facebook.com/share/1EAjQVA3Qv/",
+        "https://x.com/MBK_Bakhtawar",
+        "https://www.twitch.tv/mbk_bakhtawar",
+        "https://www.pinterest.com/mbk_bakhtawar/"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://mbkglobal.vercel.app/#organization",
+      "name": "mbkGlobal",
+      "alternateName": ["MBK Global", "MBK.GLOBAL", "mbk global"],
+      "url": "https://mbkglobal.vercel.app/",
+      "description": "The personal digital portfolio and brand of Muhammad Bakhtawar Khan, highlighting technology interests, continuous learning and digital innovation.",
+      "founder": { "@id": "https://mbkglobal.vercel.app/#person" },
+      "foundingDate": "2025",
+      "areaServed": { "@type": "Country", "name": "Pakistan" },
+      "slogan": "Building Skills. Creating Impact. Shaping the Digital Future.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "General Inquiries",
+        "availableLanguage": ["English", "Urdu"],
+        "areaServed": "Worldwide"
+      },
+      "sameAs": [
+        "https://instagram.com/mbk_bakhtawar",
+        "https://www.linkedin.com/in/muhammad-bakhtawar-khan-43b02931b",
+        "https://github.com/Muhammad-Bakhtawar-Khan",
+        "https://www.facebook.com/share/1EAjQVA3Qv/",
+        "https://x.com/MBK_Bakhtawar",
+        "https://www.twitch.tv/mbk_bakhtawar",
+        "https://www.pinterest.com/mbk_bakhtawar/"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://mbkglobal.vercel.app/#webpage",
+      "url": "https://mbkglobal.vercel.app/",
+      "name": "mbkGlobal | Muhammad Bakhtawar Khan",
+      "isPartOf": { "@id": "https://mbkglobal.vercel.app/#website" },
+      "about": { "@id": "https://mbkglobal.vercel.app/#person" },
+      "primaryImageOfPage": { "@id": "https://mbkglobal.vercel.app/#primaryimage" },
+      "inLanguage": "en-PK",
+      "description": "Portfolio of Muhammad Bakhtawar Khan (MBK) — web development, AI, cybersecurity, SEO, cloud computing and digital innovation."
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://mbkglobal.vercel.app/#primaryimage",
+      "url": "https://mbkglobal.vercel.app/og-image.jpg",
+      "contentUrl": "https://mbkglobal.vercel.app/og-image.jpg",
+      "width": 1200,
+      "height": 630,
+      "caption": "Muhammad Bakhtawar Khan — mbkGlobal"
+    },
+    {
+      "@type": "ImageGallery",
+      "@id": "https://mbkglobal.vercel.app/#gallery",
+      "name": "Muhammad Bakhtawar Khan — Visual Portfolio",
+      "description": "Curated visual portfolio of Muhammad Bakhtawar Khan (MBK).",
+      "associatedMedia": [
+        { "@type": "ImageObject", "url": "https://pin.it/7ld2kaYvo", "name": "MBK portfolio image 1" },
+        { "@type": "ImageObject", "url": "https://pin.it/17dcZ7W9T", "name": "MBK portfolio image 2" },
+        { "@type": "ImageObject", "url": "https://pin.it/51mUN25G8", "name": "MBK portfolio image 3" },
+        { "@type": "ImageObject", "url": "https://pin.it/BH8UzYgog", "name": "MBK portfolio image 4" },
+        { "@type": "ImageObject", "url": "https://pin.it/6Fww6HJyb", "name": "MBK portfolio image 5" },
+        { "@type": "ImageObject", "url": "https://pin.it/5J0Pvv2T1", "name": "MBK portfolio image 6" },
+        { "@type": "ImageObject", "url": "https://pin.it/6d7x3wRUP", "name": "MBK portfolio image 7" },
+        { "@type": "ImageObject", "url": "https://pin.it/52hJRLOO6", "name": "MBK portfolio image 8" },
+        { "@type": "ImageObject", "url": "https://pin.it/45CuyAVqW", "name": "MBK portfolio image 9" },
+        { "@type": "ImageObject", "url": "https://pin.it/292sL0yxk", "name": "MBK portfolio image 10" },
+        { "@type": "ImageObject", "url": "https://pin.it/6nLJr9eNC", "name": "MBK portfolio image 11" },
+        { "@type": "ImageObject", "url": "https://pin.it/3UeSJW8So", "name": "MBK portfolio image 12" },
+        { "@type": "ImageObject", "url": "https://pin.it/2I6nqpEk1", "name": "MBK portfolio image 13" },
+        { "@type": "ImageObject", "url": "https://pin.it/3Svc2yCLy", "name": "MBK portfolio image 14" },
+        { "@type": "ImageObject", "url": "https://pin.it/7sCRtmWL7", "name": "MBK portfolio image 15" },
+        { "@type": "ImageObject", "url": "https://pin.it/7GUE1fVw9", "name": "MBK portfolio image 16" },
+        { "@type": "ImageObject", "url": "https://pin.it/1MX50iVzw", "name": "MBK portfolio image 17" },
+        { "@type": "ImageObject", "url": "https://pin.it/7gfVWxMcW", "name": "MBK portfolio image 18" },
+        { "@type": "ImageObject", "url": "https://pin.it/4cb3LTFE7", "name": "MBK portfolio image 19" },
+        { "@type": "ImageObject", "url": "https://pin.it/6BvFwVm9z", "name": "MBK portfolio image 20" },
+        { "@type": "ImageObject", "url": "https://pin.it/4THPotKTF", "name": "MBK portfolio image 21" },
+        { "@type": "ImageObject", "url": "https://pin.it/5CbiY96GB", "name": "MBK portfolio image 22" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://mbkglobal.vercel.app/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mbkglobal.vercel.app/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://mbkglobal.vercel.app/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Muhammad Bakhtawar Khan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muhammad Bakhtawar Khan (MBK) is an aspiring digital professional from Pakistan and the founder of mbkGlobal. He is passionate about web development, artificial intelligence, cybersecurity, SEO and digital innovation."
           }
-        ]
-      },
-      {
-        "@type": "ItemList",
-        "@id": "https://mbkglobal.vercel.app/#skills",
-        "name": "Areas of Focus & Expertise",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Web Development" },
-          { "@type": "ListItem", "position": 2, "name": "Artificial Intelligence" },
-          { "@type": "ListItem", "position": 3, "name": "Cybersecurity" },
-          { "@type": "ListItem", "position": 4, "name": "Search Engine Optimization" },
-          { "@type": "ListItem", "position": 5, "name": "Cloud Computing" },
-          { "@type": "ListItem", "position": 6, "name": "Computer Networking" },
-          { "@type": "ListItem", "position": 7, "name": "VPS & RDP Management" },
-          { "@type": "ListItem", "position": 8, "name": "Digital Branding" },
-          { "@type": "ListItem", "position": 9, "name": "Digital Innovation" }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://mbkglobal.vercel.app/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Who is Muhammad Bakhtawar Khan?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Muhammad Bakhtawar Khan (MBK) is an aspiring digital professional from Pakistan and the founder of mbkGlobal. He is passionate about web development, artificial intelligence, cybersecurity, SEO and digital innovation."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is mbkGlobal?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "mbkGlobal is the personal digital portfolio and brand of Muhammad Bakhtawar Khan, showcasing his technology interests, learning journey and focus areas across web development, AI, cybersecurity and cloud computing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Where can I find Muhammad Bakhtawar Khan on social media?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Muhammad Bakhtawar Khan (MBK) is active on Instagram (@mbk_bakhtawar), LinkedIn (Muhammad Bakhtawar Khan), GitHub (Muhammad-Bakhtawar-Khan), Facebook, X/Twitter (@MBK_Bakhtawar), Twitch (mbk_bakhtawar) and Pinterest."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What areas of technology does MBK focus on?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "MBK focuses on web development, artificial intelligence, cybersecurity, search engine optimization, cloud computing, computer networking, VPS and RDP management, and digital branding."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the mission of mbkGlobal?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The mission of mbkGlobal is to build meaningful digital experiences, explore emerging technologies, and continuously develop skills that create real-world value."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Where is Muhammad Bakhtawar Khan based?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Muhammad Bakhtawar Khan is based in Pakistan and works and learns globally across the digital technology landscape."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is MBK's motto or tagline?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The mbkGlobal tagline is: Building Skills. Creating Impact. Shaping the Digital Future."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does mbkGlobal cover artificial intelligence and machine learning?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. mbkGlobal explores artificial intelligence, machine learning, generative AI, large language models, prompt engineering and the practical application of AI in modern digital products."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does MBK work on cybersecurity topics?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. MBK is deeply interested in cybersecurity including ethical hacking, penetration testing, network security, application security, cloud security and secure coding practices."
-            }
+        },
+        {
+          "@type": "Question",
+          "name": "What is mbkGlobal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "mbkGlobal is the personal digital portfolio and brand of Muhammad Bakhtawar Khan, showcasing his technology interests, learning journey and focus areas across web development, AI, cybersecurity and cloud computing."
           }
-        ]
-      }
-    ]
-  }
-  </script>
-
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I find Muhammad Bakhtawar Khan on social media?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muhammad Bakhtawar Khan (MBK) is active on Instagram (@mbk_bakhtawar), LinkedIn (Muhammad Bakhtawar Khan), GitHub (Muhammad-Bakhtawar-Khan), Facebook, X/Twitter (@MBK_Bakhtawar), Twitch (mbk_bakhtawar) and Pinterest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas of technology does MBK focus on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MBK focuses on web development, artificial intelligence, cybersecurity, search engine optimization, cloud computing, computer networking, VPS and RDP management, and digital branding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the mission of mbkGlobal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The mission of mbkGlobal is to build meaningful digital experiences, explore emerging technologies, and continuously develop skills that create real-world value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Muhammad Bakhtawar Khan based?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muhammad Bakhtawar Khan is based in Pakistan and works and learns globally across the digital technology landscape."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is MBK's motto or tagline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The mbkGlobal tagline is: Building Skills. Creating Impact. Shaping the Digital Future."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does mbkGlobal cover artificial intelligence and machine learning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. mbkGlobal explores artificial intelligence, machine learning, generative AI, large language models, prompt engineering and the practical application of AI in modern digital products."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does MBK work on cybersecurity topics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. MBK is deeply interested in cybersecurity including ethical hacking, penetration testing, network security, application security, cloud security and secure coding practices."
+          }
+        }
+      ]
+    }
+  ]
+}
+          </script>
   <!-- ══════════════════════════════════════════════════════════════════
        CRITICAL INLINE STYLES
        ══════════════════════════════════════════════════════════════════ -->
